@@ -1,0 +1,211 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    color: #5F6368
+}
+
+
+a:link{
+    color: #5F6368;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #5F6368;
+    text-decoration: none;
+}
+
+.Connexion a{
+    color: white;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    color: #434343;
+    padding-right: 20px;
+  }
+
+.Gmail, .Images, .Applications, .Connexion{
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.Connexion{
+    color: white; 
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    line-height: 28px;
+    background: #4485F4;
+    padding: 0px 12px;
+    border-radius: 2px;
+    margin-left: 10px; 
+
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 109px;
+}
+
+#barre_de_recherche{
+    color: #5F6368;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+      padding-top: 10px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 14px; 
+    text-align: right; 
+
+}
+
+#barre_de_recherche{
+    background: #fff;
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    border: none;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+
+.micro{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    flex: 0 0 auto;
+    margin-top: -5px;
+}
+
+.loupe{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+
+#boutons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bouton1 {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-color: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-appearance: push-button;
+
+}
+
+.bouton2 {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-color: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-appearance: push-button;
+
+}
+
+
+footer {
+    background-color: #F2F2F2;
+    color: #5f6368;
+    font-size: 14px;
+    bottom: 0;
+    line-height: 35px;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+  }
+
+#france{
+    margin-left: 35px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+#droite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 25px;
+    white-space: nowrap;
+    float: right;
+    font-size: 14px;
+  }
+
+  #gauche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 25px;
+    white-space: nowrap;
+    float: left;
+    font-size: 14px;
+  }
+
+  .lien{
+    padding-left: 25px;
+    margin: 0 !important;
+  }
